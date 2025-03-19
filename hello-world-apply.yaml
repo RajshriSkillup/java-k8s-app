@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: us.icr.io/sn-labs-rajashreep/hello-world:1
+        image: us.icr.io/<my_namespace>/hello-world:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
