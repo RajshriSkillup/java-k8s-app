@@ -32,4 +32,4 @@ USER spring:spring
 ENTRYPOINT ["java", "-jar", "app.jar"]
  
 # Document that the container listens on port 8080
-EXPOSE 3000
+EXPOSE 8080
